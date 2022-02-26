@@ -5,7 +5,7 @@ This repository presents the design of Charge Pump for PLL implemented using Syn
 
 - [Abstract](https://github.com/tanmaycv-09/Charge_Pump_for_PLL/blob/main/README.md#abstract)
 - [Detailed Explanation](https://github.com/tanmaycv-09/Charge_Pump_for_PLL/blob/main/README.md#detailed-explanation)
-- [Reference Circuit]()
+- [Reference Circuit](https://github.com/tanmaycv-09/Charge_Pump_for_PLL/blob/main/README.md#reference-circuit)
 - [Tools Used]()
 - [Simulation in Synopsys]()
 - [Idle Mode]()
