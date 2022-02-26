@@ -7,4 +7,7 @@ A high performance, ultra-low power scalable CMOS charge pump (CP) design for an
 # Detailed Explanation
 As with any PLL charge pump, there are three explicit switching modes of operation: (1) Idle, (2) Pump Up, and (3) Pump Down. The three following sub-sections describe each of these modes in detail for the proposed CP in the PLL control loop. 
 
-. (1) Idle Mode
+(1) Idle Mode
+The Idle mode is always characterized by the Up and Down error signals being low (i.e. Up = Down = logic 0). There are two different times in which the Idle mode occurs in the PLL control loop, each with a specific purpose: (1) during phase lock to hold the VC value constant (i.e. /FB equals /REF) and (2) for the recharging of the capacitor, CP, in between Pump Up and Pump Down modes not equal /REF).
+(i.e., /FB does <img width="452" alt="idle_mode" src="https://user-images.githubusercontent.com/77117825/155839193-8b268528-0f9d-46d5-b291-cde570fd4dae.png">
+
