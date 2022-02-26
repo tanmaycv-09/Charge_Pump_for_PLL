@@ -82,7 +82,7 @@ The Pump Down mode occurs when the phase error swings in the opposite direction 
 # Netlist 
 
 Refer to the netlist of the idle mode here:[idle_mode](https://github.com/tanmaycv-09/Charge_Pump_for_PLL/files/8146526/idle_mode_text.txt)
-
+Refer to the netlist of the pump up mode here:[pump up mode]([pump _up.txt](https://github.com/tanmaycv-09/Charge_Pump_for_PLL/files/8146536/pump._up.txt)
 
 
 
