@@ -25,3 +25,63 @@ The Pump Down mode occurs when the phase error swings in the opposite direction 
 
 <img width="430" alt="pump_down" src="https://user-images.githubusercontent.com/77117825/155841877-a647bb4f-6b7c-4d4f-bf8f-005766b8965c.png">
 
+# Reference Circuit 
+
+![reference_ckt](https://user-images.githubusercontent.com/77117825/155841900-8564bc7b-d8fb-4d29-9589-762a755c08a0.jpeg)
+
+# Tools Used 
+
+> Synopsys Custom Compiler:  The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. This tool was used to design the circuit on a transistor level.
+
+
+> Synopsys Primewave:  PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit.
+
+
+> Synopsys 28nm PDK:  The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
+
+# Simulation in Synopsys 
+
+> Schematic 
+
+<img width="1119" alt="Synopsys_circuit" src="https://user-images.githubusercontent.com/77117825/155841991-5d99dd63-958e-4754-a272-2b560a898b0f.png">
+
+> Symbol 
+
+<img width="301" alt="Symbol" src="https://user-images.githubusercontent.com/77117825/155842003-d2b34152-2a86-4d84-8ad3-9bb5f695fc6e.png">
+
+# Idle Mode 
+
+> Schematic 
+
+<img width="806" alt="idle_mode_circuit" src="https://user-images.githubusercontent.com/77117825/155842017-707ebbd2-2f23-47f2-b969-6cb4088b97ac.png">
+
+> Waveform 
+
+<img width="1431" alt="idle_mode_waveform" src="https://user-images.githubusercontent.com/77117825/155842030-d8dff107-5ac7-47df-a8fa-889091e3a1d0.png">
+
+# Pump Up Mode 
+
+> Schematic 
+
+<img width="759" alt="pump_up_mode_ckt" src="https://user-images.githubusercontent.com/77117825/155842057-7f04a238-52d0-41f4-9d4a-b99c2de3292c.png">
+
+> Waveform 
+
+<img width="1431" alt="pump_up_wave" src="https://user-images.githubusercontent.com/77117825/155842065-2beed6da-4a29-48a2-9c5b-618314bec5b3.png">
+
+# Pump Down Wave
+
+> Schematic 
+
+<img width="728" alt="pump_down_ckt" src="https://user-images.githubusercontent.com/77117825/155842073-0084b350-795d-4d01-b2d7-7ceba0e41de5.png">
+
+> Waveform 
+
+<img width="1427" alt="pump_down_wave" src="https://user-images.githubusercontent.com/77117825/155842081-8d255639-b3ae-45b8-94a0-54901e575c44.png">
+
+
+
+
+
+
+
