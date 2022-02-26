@@ -9,7 +9,19 @@ As with any PLL charge pump, there are three explicit switching modes of operati
 
 (1) Idle Mode
 
-The Idle mode is always characterized by the Up and Down error signals being low (i.e. Up = Down = logic 0). There are two different times in which the Idle mode occurs in the PLL control loop, each with a specific purpose: (1) during phase lock to hold the VC value constant (i.e. /FB equals /REF) and (2) for the recharging of the capacitor, CP, in between Pump Up and Pump Down modes (i.e., /FB does not equal /REF).
+The Idle mode is always characterized by the Up and Down error signals being low (i.e. Up = Down = logic 0). There are two different times in which the Idle mode occurs in the PLL control loop, each with a specific purpose: (1) during phase lock to hold the VC value constant (i.e. ΦFB equals ΦREF) and (2) for the recharging of the capacitor, CP, in between Pump Up and Pump Down modes (i.e., ΦFB does not equal ΦREF). At the start of the Idle mode, switches S1 and S2 are closed while S3 and S4 are open; meanwhile this action causes CP, to charge to VDD. After CP charges to the supply voltage, VDD, the capacitor CP holds its charge, QP, in an open loop fashion until the CP is instructed by the PFD to change modes to either Pump Up or Pump Down. VC, will not change during Idle mode and, therefore, retains the voltage value, VC0, it held at the moment prior to starting Idle mode.
 
 <img width="452" alt="idle_mode" src="https://user-images.githubusercontent.com/77117825/155839193-8b268528-0f9d-46d5-b291-cde570fd4dae.png">
+
+(2) Pump Up Mode 
+
+In this case, the Pump Up mode is activated by a lagging phase difference between ΦFB and ΦREF; this causes the PFD to produce a logic 1 Up error signal for the duration of the phase difference between fFB and fREF. The CP responds by transitioning out of Idle mode with an opening of S2 and closing of S4 which allows the charge, QP, stored on CP to transfer to CL, thus raising the voltage on VC. The result for one Pump Up cycle is an increasing of ΦVCO and ΦFB in order to match ΦREF. At the end of every Pump Up cycle the CP returns to Idle mode to fully recharge CP. As the PLL approaches phase lock, partial Pump Up cycles take place incrementally raising VC which allows for accuracy in obtaining the desired frequency for the VCO.
+
+<img width="430" alt="pump_up" src="https://user-images.githubusercontent.com/77117825/155841808-4b068610-9061-49d8-9a3a-35aedc1cbe9f.png">
+
+(3) Pump Down Mode 
+
+The Pump Down mode occurs when the phase error swings in the opposite direction and ΦFB leads vREF, causing the PFD to produce a logic 1 Down error signal for the duration of the difference between fFB and fREF. Similar to the Pump Up mode, the CP responds by moving out of the Idle mode, but instead opens S1 and closes S3 which allows the pulling of the stored charge, QP, away from CL, thus lowering the voltage on VC. This action decreases fVCO and, consequently, fFB, in the closed PLL control loop. At the end of every Pump Down cycle, the CP recharges CP in the Idle mode
+
+<img width="430" alt="pump_down" src="https://user-images.githubusercontent.com/77117825/155841877-a647bb4f-6b7c-4d4f-bf8f-005766b8965c.png">
 
