@@ -69,7 +69,7 @@ The Pump Down mode occurs when the phase error swings in the opposite direction 
 
 <img width="1431" alt="pump_up_wave" src="https://user-images.githubusercontent.com/77117825/155842065-2beed6da-4a29-48a2-9c5b-618314bec5b3.png">
 
-# Pump Down Wave
+# Pump Down Mode
 
 > Schematic 
 
@@ -78,6 +78,10 @@ The Pump Down mode occurs when the phase error swings in the opposite direction 
 > Waveform 
 
 <img width="1427" alt="pump_down_wave" src="https://user-images.githubusercontent.com/77117825/155842081-8d255639-b3ae-45b8-94a0-54901e575c44.png">
+
+# Netlist 
+
+Refer to the netlist of the idle mode here:[idle_mode](https://github.com/tanmaycv-09/Charge_Pump_for_PLL/files/8146526/idle_mode_text.txt)
 
 
 
