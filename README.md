@@ -87,7 +87,9 @@ Refer to the netlist of the pump up mode here:[pump up mode](https://github.com/
 
 Refer to the netlist of the pump down mode here:[pump down mode](https://github.com/tanmaycv-09/Charge_Pump_for_PLL/files/8146541/pump_down.txt)
 
+# Author 
 
+Tanmay Chakravorty, B.E. ECE, Thapar Institute of engineering & Technology, Patiala-147004.
 
 
 
