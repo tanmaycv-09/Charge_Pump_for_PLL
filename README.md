@@ -91,5 +91,18 @@ Refer to the netlist of the pump down mode here:[pump down mode](https://github.
 
 Tanmay Chakravorty, B.E. ECE, Thapar Institute of engineering & Technology, Patiala-147004.
 
+# Acknowledgement
+
+1. [CLoud Based Analog IC Design Hackathon](https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/)
+2. [Synopsys India](https://www.synopsys.com/)
+3. [VLSI System Design (VSD) Corp.Pvt.Ltd India
+4. Kunal Ghosh, Co-founder, VSD Corp.Pvt.Ltd.- [kunalghosh@gmail.com](kunalghosh@gmail.com)
+5. Chinmay Panda, IIT Hyderabad
+6. Sameer Durgoji, NIT Karnataka 
+
+# References 
+
+1. S. M. Schober and J. Choma Jr., A charge transfer- based high performance, ultra-low power CMOS charge pump for PLLs, Analog Integr. Circ. Sig. Process. (2016) 561–570
+2. B. Razavi, Phase-locked loops.
 
 
